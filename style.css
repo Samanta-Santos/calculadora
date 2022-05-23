@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(244, 244, 244);
+}
+
+.container {
+    background: pink;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#lousa {
+    background: rgb(40, 40, 40);
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+input{
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    color: rgb(221, 221, 221);
+}
+
+input:focus{
+    outline: none;
+}
+
+#conta,
+#res {
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: right;
+}
+
+#res {
+    color: white;
+}
+
+#botoes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin: 10px;
+}
+
+.btnNumber {
+    margin: 2px;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(48, 48, 48);
+    border-radius: 10px;
+    color: rgb(54, 54, 54);
+}
+
+.igual {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
